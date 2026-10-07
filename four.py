@@ -21,9 +21,9 @@ with st.form("input_form"):
 import streamlit as st
 
 tasks = [
-    "1.  API 스펙 문서 작성",
-    "2. 프론트엔드 컴포넌트 개발",
-    "3. 배포 파이프라인(CI/CD) 구축"
+    "1. 점심 메뉴 고민하기",
+    "2. 버스 시간표 확인",
+    "3. 15분 명상"
 
 ]
 
@@ -39,11 +39,11 @@ import streamlit as st
 
 # 페이지 제목 설정
 
-st.title("오늘 하루 기분이 좋아지자!")
+st.title("오늘의 명언 뽑기!")
 
 # 텍스트 출력
 
-st.write("오늘 하루 기분이 좋아지는 명언.")
+st.write("오늘 하루 기분이 좋아지는 사자성어.")
 
 #사용자 입력 받기
 
