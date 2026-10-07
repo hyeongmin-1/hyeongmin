@@ -18,7 +18,7 @@ with st.form("input_form"):
     if st.form_submit_button("등록") and name :
         st.session_state.user_list.append(name)
 
-import streamlit as st
+
 
 tasks = [
     "1. 점심 메뉴 고민하기",
@@ -35,7 +35,7 @@ for task in tasks:
     with st.container(border=True):
         st.write(task)
 
-import streamlit as st
+
 
 # 페이지 제목 설정
 
@@ -48,7 +48,7 @@ st.write("오늘 하루 기분이 좋아지는 사자성어.")
 #사용자 입력 받기
 
 name = st.text_input("이름을 입력하세요:")
-
+if name == 49
 #버튼 클릭 이벤트
 
 if st.button("명언 뽑기"):
