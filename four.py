@@ -65,10 +65,18 @@ if st.button("명언 뽑기"):
 st.title("랜덤뽑기")
 st.write("당신의 운을 시험해보세요!")
 
-cs = ["1"or"2"or"3"or"4"]
+cs = ["1","2","3","4"]
 
 if st.button("랜덤뽑기"):
     if cs:
         st.success(f"{cs}!")
     else:
         st.warning("다시뽑기")
+
+st.title("오늘 배운거 복습")
+
+ds = ["오늘 하루 알찼습니다",
+      "내일 되면 까먹겠다",
+      "0과1로 이루어진 컴퓨터 언어"]
+
+st.subh
