@@ -60,3 +60,19 @@ if st.button("명언 뽑기"):
         st.success(f"안녕하세요,{name}님! 오늘의 명언은 '결자해지(結者解之)' 입니다!")
     else:
         st.warning("이름을 입력해주세요.")
+
+
+st.title("랜덤뽑기")
+st.write("당신의 운을 시험해보세요!")
+
+cs = ["1"or"2"or"3"or"4"]
+
+for c in cs:
+    with st.container(border=True):
+        st.write(cs)
+
+if st.button("랜덤뽑기"):
+    if button:
+        st.success(f"{cs}!")
+    else:
+        st.warning("다시뽑기")
