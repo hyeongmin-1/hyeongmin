@@ -39,11 +39,11 @@ import streamlit as st
 
 # 페이지 제목 설정
 
-st.title("나의 첫 Streamlit 앱")
+st.title("오늘 하루 기분이 좋아지자")
 
 # 텍스트 출력
 
-st.write("Streamlit을 이용해 만든 웹 애플리케이션입니다.")
+st.write("오늘 하루 좋은 명언.")
 
 #사용자 입력 받기
 
@@ -53,6 +53,6 @@ name = st.text_input("이름을 입력하세요:")
 
 if st.button("인사하기"):
     if name:
-        st.success(f"안녕하세요,{name}님! 즐거운 하루 되세요!")
+        st.success(f"안녕하세요,{name}님! 오늘의 명언은 시작이 반이다 입니다! 진짜로 시작하기 위한 마음가짐을 가지는 하루가 가장 어렵거든요!")
     else:
         st.warning("이름을 입력해주세요.")
