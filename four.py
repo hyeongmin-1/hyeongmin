@@ -72,7 +72,7 @@ for c in cs:
         st.write(cs)
 
 if st.button("랜덤뽑기"):
-    if button:
+    if cs:
         st.success(f"{cs}!")
     else:
         st.warning("다시뽑기")
