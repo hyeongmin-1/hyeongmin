@@ -84,4 +84,4 @@ st.subheader("오늘 하루도 고생했어")
 
 for d in ds:
     with st.container(border=True):
-        st.write(markdown)
+        st.write(task)
