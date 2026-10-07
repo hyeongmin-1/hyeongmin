@@ -11,7 +11,7 @@ with col2:
 
 # 새로고침 시 데이터 유지
 if "user_list" not in st.session_state:
-    st.session_sate.user_list = []
+    st.session_state.user_list = []
 
 with st.form("input_form"):
     name = st.text_input("이름")
