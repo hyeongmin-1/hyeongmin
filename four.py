@@ -17,3 +17,21 @@ with st.form("input_form"):
     name = st.text_input("이름")
     if st.form_submit_button("등록") and name :
         st.session_state.user_list.append(name)
+
+import streamlit as st
+
+tasks = [
+    "1.  API 스펙 문서 작성",
+    "2. 프론트엔드 컴포넌트 개발",
+    "3. 배포 파이프라인(CI/CD) 구축"
+
+]
+
+st.subheader("※ 금일 할 일 목록")
+
+for task in tasks:
+    # border = Ture를 주면 각 반복 요소가 단정한 상자로 감싸진다.
+    
+    with st.container(border=True):
+        st.write(task)
+
