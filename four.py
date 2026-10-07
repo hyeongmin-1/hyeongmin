@@ -53,6 +53,6 @@ name = st.text_input("이름을 입력하세요:")
 
 if st.button("명언 뽑기"):
     if name:
-        st.success(f"안녕하세요,{name}님! 오늘의 명언은 '결자해지{結者解之}' 입니다!")
+        st.success(f"안녕하세요,{name}님! 오늘의 명언은 '결자해지(結者解之)' 입니다!")
     else:
         st.warning("이름을 입력해주세요.")
