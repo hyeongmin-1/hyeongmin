@@ -39,11 +39,11 @@ import streamlit as st
 
 # 페이지 제목 설정
 
-st.title("오늘 하루 기분이 좋아지자")
+st.title("오늘 하루 기분이 좋아지자!")
 
 # 텍스트 출력
 
-st.write("오늘 하루 좋은 명언.")
+st.write("오늘 하루 기분이 좋아지는 명언.")
 
 #사용자 입력 받기
 
@@ -51,8 +51,8 @@ name = st.text_input("이름을 입력하세요:")
 
 #버튼 클릭 이벤트
 
-if st.button("인사하기"):
+if st.button("명언 뽑기"):
     if name:
-        st.success(f"안녕하세요,{name}님! 오늘의 명언은 시작이 반이다 입니다! 진짜로 시작하기 위한 마음가짐을 가지는 하루가 가장 어렵거든요!")
+        st.success(f"안녕하세요,{name}님! 오늘의 명언은 '결자해지{結者解之}' 입니다!")
     else:
         st.warning("이름을 입력해주세요.")
