@@ -35,7 +35,7 @@ for task in tasks:
     with st.container(border=True):
         st.write(task)
 
-import stremlit as st
+import streamlit as st
 
 # 페이지 제목 설정
 
