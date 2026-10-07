@@ -67,6 +67,7 @@ st.write("당신의 운을 시험해보세요!")
 
 cs = ["1","2","3","4"]
 
+
 if st.button("랜덤뽑기"):
     if cs:
         st.success(f"{cs}!")
@@ -79,4 +80,8 @@ ds = ["오늘 하루 알찼습니다",
       "내일 되면 까먹겠다",
       "0과1로 이루어진 컴퓨터 언어"]
 
-st.subh
+st.subheader("오늘 하루도 고생했어")
+
+for d in ds:
+    with st.container(border=True):
+        st.write(markdown)
