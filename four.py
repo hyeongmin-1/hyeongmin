@@ -49,7 +49,10 @@ st.write("오늘 하루 기분이 좋아지는 사자성어.")
 
 name = st.text_input("이름을 입력하세요:")
 if name == 49:
-    "다시 입력해주십시오."
+    if name:
+        st.success
+    else:
+        st.warning("이름을 입력해주세요.")
 #버튼 클릭 이벤트
 
 if st.button("명언 뽑기"):
