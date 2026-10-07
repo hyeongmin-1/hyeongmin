@@ -67,10 +67,6 @@ st.write("당신의 운을 시험해보세요!")
 
 cs = ["1"or"2"or"3"or"4"]
 
-for c in cs:
-    with st.container(border=True):
-        st.write(cs)
-
 if st.button("랜덤뽑기"):
     if cs:
         st.success(f"{cs}!")
