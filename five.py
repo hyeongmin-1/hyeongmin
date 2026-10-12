@@ -82,6 +82,20 @@ if st.button("확인하기"):
         st.success(f"{birthday} 조금만 더 수고하여 어려운 고비를 넘기면 마침내 얻을 수 있으니 인내심으로 참고 견디는 방법이 최선의 길이 될 것이다")
     else :
         st.Warning()
+
+#액운막기
+
+st.title("액운을 막는법")
+tasks = [
+    "1.소금을 가지고 다녀라"
+    "2.현관을 관리하라"
+    "3.물건을 비워라"
+    "4.명태를 현관에 걸어 액막이를 하라"]
+
+for task in tasks:
+    with st.container(border=True):
+        st.write(task)
+
     
 
 
