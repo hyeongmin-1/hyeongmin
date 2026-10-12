@@ -15,8 +15,8 @@ print (today)
 
 col1, col2 , col3 ,col4 = st.columns(4)
 with col1:    
-    st.write("대길")
-    st.write("대흉")
+    st.subheader("대길")
+    st.subheader("대흉")
 with col2:    
     st.write("토끼띠")
     st.write("개띠")   
