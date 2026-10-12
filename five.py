@@ -7,10 +7,10 @@ st.info("오늘은 좋은 날 일 겁니다")
 #오늘의 날짜
 st.title("오늘의 날짜")
 
-from datetime import datetime
+from datetime import date
 
-now = datetime.now()
-print (now)
+today = date.today()
+print (today)
 #대길 대흉
 
 col1, col2 , col3 ,col4 = st.columns(4)
