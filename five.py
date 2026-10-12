@@ -21,7 +21,7 @@ with col3:
     st.write("뱀띠")
 
 with st.container(border=True):
-    st.write(col1,col2,col3)
+    st.write(st.columns{3})
 #나의 운세 확인하기
 
 st.title ("당신의 운세")
