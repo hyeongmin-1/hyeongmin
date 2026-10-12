@@ -31,7 +31,7 @@ with col4:
 #각 띠들의 운세
 
 tab_title = ['쥐','소','호랑이','토끼','용','뱀','말','양','원숭이','닭','개','돼지']
-tab1,tab2,tab3,tab4,tab5,tab6,tab7,tab8,tab9,tab10,tab11,tab12 = st.tabs(tab_titles)
+tab1,tab2,tab3,tab4,tab5,tab6,tab7,tab8,tab9,tab10,tab11,tab12 = st.tabs(tab_title)
 
 with tab1:
     st.header('쥐')
