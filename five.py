@@ -10,7 +10,7 @@ st.title("오늘의 날짜")
 from datetime import date
 
 today = date.today()
-st.text_input(today)
+st.text(today)
 #대길 대흉
 
 col1, col2 , col3 ,col4 = st.columns(4)
