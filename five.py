@@ -21,7 +21,7 @@ with col2:
     st.write("토끼띠")
     st.write("개띠")   
 with col3:        
-    st.write("쥐띠")
+    st.write("돼지띠")
     st.write("뱀띠")
 with col4:
     st.write("말띠")
