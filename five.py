@@ -5,7 +5,7 @@ st.title("오늘의 행운 확인하기")
 st.info("오늘은 좋은 날 일 겁니다")
 
 #대길 대흉
-col1, col2 , col3 = st.colums(3)
+col1, col2 , col3 = st.columns(3)
 with col1:
     st.write("2026/10/12")
 with col2:
