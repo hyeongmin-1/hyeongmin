@@ -19,6 +19,10 @@ with col3:
     st.write("쥐띠")
     st.write("뱀띠")
 
+#나의 운세 확인하기
+
+st.title ("당신의 운세")
+
 #생년월일 입력
 
 birthday = st.text_input("생년월일을 입력하세요")
@@ -27,5 +31,5 @@ if st.button("확인하기"):
     if birthday:
         st.success(f"{birthday}")
 
-st.title ("당신의 운세")
+
 
