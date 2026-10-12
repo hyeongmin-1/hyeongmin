@@ -2,7 +2,7 @@ import streamlit as st
 
 # 웹 이름
 st.title("오늘의 운세 확인하기")
-st.info("오늘은 좋은 날 일 겁니다")
+st.info("이건 참고용 입니다")
 
 #오늘의 날짜
 st.title("★오늘의 날짜")
@@ -45,6 +45,7 @@ if st.button("확인하기"):
                    과감하게 도전할 수 있을 것이다.")
     else :
         st.Warning()
+    
 
 
 
