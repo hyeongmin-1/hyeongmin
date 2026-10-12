@@ -10,7 +10,7 @@ st.title("오늘의 날짜")
 from datetime import date
 
 today = date.today()
-print (today)
+st.print(today)
 #대길 대흉
 
 col1, col2 , col3 ,col4 = st.columns(4)
@@ -18,14 +18,14 @@ with col1:
     st.subheader("대길")
     st.subheader("대흉")
 with col2:    
-    st.write("토끼띠")
-    st.write("개띠")   
+    st.subheader("토끼띠")
+    st.subheader("개띠")   
 with col3:        
-    st.write("돼지띠")
-    st.write("뱀띠")
+    st.subheader("돼지띠")
+    st.subheader("뱀띠")
 with col4:
-    st.write("말띠")
-    st.write("쥐띠")
+    st.subheader("말띠")
+    st.subheader("쥐띠")
 
 #나의 운세 확인하기
 
