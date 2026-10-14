@@ -3,7 +3,7 @@ import streamlit as st
 st.title("학생 성적 관리 웹앱")
 
 if "students" not in st.session_state:
-    st.sesstion_state.students = []
+    st.session_state.students = []
 
 # 입력 폼
 
