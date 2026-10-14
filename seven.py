@@ -38,7 +38,7 @@ with tab5:
     st.header("금")
     st.write("휴무")
 
-with st.form("input_form",clear_on_submit=Ture):
+with st.form("input_form",clear_on_submit=True):
     task = st.text_input("결식하실분들은 이름을 적으세요")
     sub = st.form_submit_button("추가")
 
