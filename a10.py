@@ -21,6 +21,6 @@ if st.session_state.students:
     col_l,col_r = st.columns(2)
     with col_l: st.table(st.session_state.students)
     with col_r:
-        avg = sum(s["점수"] for s in st.sesstion_state.students) / len(st.session_state.students)
+        avg = sum(s["점수"] for s in st.session_state.students) / len(st.session_state.students)
         st.metric("총 학생 수 ",f"{len(st.session_state.students)}명")
         st.metric("평균 점수", f"{avg:.1f}점")
