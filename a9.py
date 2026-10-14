@@ -7,7 +7,7 @@ with st.sidebar:
     name = st.text_input("작성자")
     msg = st.text_input("메모 내용")
     if st.button("등록"):
-        db.collextion("memos").add({"user": name,"text":msg})
+        db.collection("memos").add({"user": name,"text":msg})
         st.rerun()
 
 # 2. 메인 : 데이터 출력부
