@@ -1,4 +1,15 @@
+import json
 import streamlit as st
+import firebase_admin
+from firebase_admin import credentials, firestore
+
+if not firebase_admin._apps:
+    key_string = st.secrets["firebase_key"]
+    cred_dict = json.loads(key_string)
+    cred = credentials.Certificate(cred_dict)
+    firebase_admin.initialize_app(cred)
+
+db = firestore.client()
 
 # 1. 사이드 바 : 데이터 입력부
 
