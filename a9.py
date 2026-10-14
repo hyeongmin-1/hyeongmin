@@ -12,7 +12,7 @@ with st.sidebar:
 
 # 2. 메인 : 데이터 출력부
 
-st.title("실시간 메모 게기판")
+st.title("실시간 메모 게시판")
 
 docs = db.collection("memos").stream()
 for doc in docs:
