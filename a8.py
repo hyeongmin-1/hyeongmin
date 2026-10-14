@@ -51,7 +51,7 @@ else:
                 st.session_state["login"] = True; st.rerun()
             else:
                  st.session_state["login"] = False; st.write("회원가입을 해주십시오")
-        if l_pw not in st.sesstion_state["login"] = False; st.write("비밀번호가 틀립니다")
+        if l_pw not in st.sesstion_state["login"] == False: st.write("비밀번호가 틀립니다")
     with tab2:
         n_id = st.text_input("새 아이디", key="n_id")
         n_pw = st.text_input("새 비밀번호",type="password",key="n_pw")
