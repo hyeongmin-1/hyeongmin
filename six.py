@@ -20,5 +20,5 @@ with st.form("input_form",clear_on_submit=True):
     sub = st.form_submit_button("추가")
 
 if sub and task:
-    db.collection("todos").add({"content":task,"at":firestore.SEVER_TIMESTAMP})
+    db.collection("todos").add({"content":task,"at":firestore.SERVER_TIMESTAMP})
     st.success(f"'{task}'추가됨!")
